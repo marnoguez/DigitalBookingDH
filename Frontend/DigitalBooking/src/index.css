@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';  
+}
+
+.leaflet-container{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 1rem;
+  right: 10rem;
+  top: 2.5rem;
+  width: 92vw;
+  height: 50vh;
+}
+
+@media screen and (max-width: 1100px){
+  .leaflet-container{
+    right: 12rem;
+  }
+
+@media screen and (min-width: 755px) {
+  .leaflet-container{
+    margin-right: 0rem;
+  }
+}
+}

@@ -1,0 +1,120 @@
+stages:
+  - build
+  - test
+  - deploy
+
+build_frontend: 
+  stage: build
+  image: node:latest
+  before_script: 
+    - cd ./Frontend/DigitalBooking
+  script: 
+    - npm install
+    - npm run build
+    - echo "FINALIZANDO DE BUILDEAR FRONTEND"
+    
+
+build_backend:
+  stage: build
+  image: ubuntu:latest
+  before_script:
+    - apt update -y 
+    - apt install git -y
+    - apt install maven -y
+    - apt install openjdk-19-jre -y
+    - git clone https://marnoguez:martu2803@gitlab.ctd.academy/ctd/hispanos/proyecto-integrador-1/proyecto-integrador-0223/0522ft-c3/grupo-05.git
+    - cd grupo-05
+    - git checkout dev && cd BackEnd/digitalbooking
+    - mvn clean 
+    - mvn validate
+    - mvn install
+  script: 
+    - echo "Buildeando BACKEND"
+    - mvn package
+    - echo "Build Completado "
+
+test_frontend:
+  stage: test
+  needs: [build_frontend]
+  image: node:latest
+  script:
+    - echo "Testeando el proyecto FRONTEND"
+    - cd ./Frontend/DigitalBooking
+    - npm install
+    # - npm run test
+  
+test_backend:
+  stage: test
+  needs: [build_backend]
+  image: ubuntu:latest
+  before_script:
+    - apt update -y 
+    - apt install git -y
+    - apt install maven -y
+    - apt install openjdk-19-jre -y
+    - git clone https://marnoguez:martu2803@gitlab.ctd.academy/ctd/hispanos/proyecto-integrador-1/proyecto-integrador-0223/0522ft-c3/grupo-05.git
+    - cd grupo-05
+    - git checkout dev && cd BackEnd/digitalbooking
+    - mvn clean
+    - mvn validate
+    - mvn install
+  script:
+    - echo "Testeando el proyecto BACKEND"
+    - mvn test
+
+deploy_frontend:
+  stage: deploy
+  needs: [build_frontend]
+  image: ubuntu:latest
+  before_script:
+    # Actualizar instancia e instalar herramientas necesarios
+    - echo "Deployando el proyecto a AWS"
+    - apt update -y
+    - apt upgrade -y
+    - apt install curl zip unzip -y 
+    - apt install git-core -y
+    # Instalacion AWS
+    - curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+    - unzip awscliv2.zip
+    - ./aws/install --bin-dir /usr/local/bin --install-dir /usr/local/aws-cli --update
+    - aws --version
+    - apt update -y
+    - apt upgrade -y
+    # Implemento las credenciales de aws al CLI
+    - export AWS_ACCESS_KEY_ID=AKIASDYGBXDRUJH2SQGM
+    - export AWS_SECRET_ACCESS_KEY=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
+    # Descargo repositorio Gitlab e inicia instalacion npm
+    - cd ~
+    - git clone https://marnoguez:martu2803@gitlab.ctd.academy/ctd/hispanos/proyecto-integrador-1/proyecto-integrador-0223/0522ft-c3/grupo-05.git
+    - cd grupo-05
+    - git checkout dev
+    - git pull https://marnoguez:martu2803@gitlab.ctd.academy/ctd/hispanos/proyecto-integrador-1/proyecto-integrador-0223/0522ft-c3/grupo-05.git
+    - cd ./Frontend/DigitalBooking
+    #  Descargo node
+    - curl -fsSL https://deb.nodesource.com/setup_16.x | bash
+    - apt install -y nodejs
+    - node -v
+    - npm -v
+    - npm install
+    - npm run build
+  script:
+    # Se envia a un bucket S3
+    - aws s3 rm s3://$S3_BUCKET/ --recursive
+    - aws s3 cp dist s3://$S3_BUCKET/ --recursive
+
+    
+deploy_project_backend:
+  image: ubuntu:latest
+  stage: deploy
+  before_script:
+    - echo "Deployando el proyecto a AWS"
+    - apt update -y && apt upgrade -y
+    - apt install openssh-server -y
+    - echo "$AWS_EC2_KEY" > ssh_key 
+    - chmod 600 ssh_key 
+    - eval $(ssh-agent -s) 
+    - ssh-add ssh_key 
+  script:
+    - pwd
+    - ssh -n -v -o StrictHostKeyChecking=no ubuntu@ec2-3-20-188-10.us-east-2.compute.amazonaws.com "cd /home/ubuntu && ./actualizar.sh && ./dockerizar.sh"
+

@@ -1,0 +1,166 @@
+[2023-03-21 19:20:41] [ INFO ] [CategoriaService:32] Se inició el listado de categorias
+[2023-03-22 13:15:35] [ INFO ] [ProductoService:41] Se inició el listado de productos
+[2023-03-22 14:13:06] [ INFO ] [ProductoService:41] Se inició el listado de productos
+[2023-03-22 20:50:05] [ INFO ] [ProductoService:41] Se inició el listado de productos
+[2023-03-22 20:58:55] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:30:25, fechaInicio=2023-03-22, fechaFin=2023-05-22, producto=Producto(id=3, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@a64afd5)
+[2023-03-22 21:04:51] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:30:25, fechaInicio=2023-03-22, fechaFin=2023-05-22, producto=Producto(id=4, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@28c66fe3)
+[2023-03-22 21:05:44] [ INFO ] [ProductoService:41] Se inició el listado de productos
+[2023-03-22 21:06:24] [ INFO ] [ProductoService:41] Se inició el listado de productos
+[2023-03-22 21:11:06] [ INFO ] [ProductoService:41] Se inició el listado de productos
+[2023-03-22 21:12:05] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:30:25, fechaInicio=2023-03-06, fechaFin=2023-05-24, producto=Producto(id=5, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@e20f1ba)
+[2023-03-22 21:13:23] [ INFO ] [ProductoService:41] Se inició el listado de productos
+[2023-03-22 21:17:58] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:30:25, fechaInicio=2023-03-06, fechaFin=2023-05-24, producto=Producto(id=3, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@4476c38e)
+[2023-03-22 21:28:12] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:30:25, fechaInicio=2023-03-06, fechaFin=2023-05-30, producto=Producto(id=3, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@4f23e94c)
+[2023-03-22 21:31:52] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:30:25, fechaInicio=2023-03-06, fechaFin=2023-05-30, producto=Producto(id=3, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@543bf3d8)
+[2023-03-22 21:37:29] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:30:25, fechaInicio=2023-03-06, fechaFin=2023-05-30, producto=Producto(id=3, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@4c28d03c)
+[2023-03-22 21:44:45] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:30:25, fechaInicio=2023-03-06, fechaFin=2023-05-30, producto=Producto(id=3, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@6195f805)
+[2023-03-22 21:44:45] [ DEBUG] [ReservaService:56] Email enviado de confirmacion de reserva
+[2023-03-22 21:45:05] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:30:25, fechaInicio=2023-06-06, fechaFin=2023-05-30, producto=Producto(id=3, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@ef48bca)
+[2023-03-22 21:45:05] [ DEBUG] [ReservaService:56] Email enviado de confirmacion de reserva
+[2023-03-22 21:48:21] [ INFO ] [ReservaService:64] Se inicio el listado de reservas
+[2023-03-22 22:28:09] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:30:25, fechaInicio=2023-06-06, fechaFin=2023-05-30, producto=Producto(id=3, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@666e6ea7)
+[2023-03-22 22:28:10] [ DEBUG] [ReservaService:56] Email enviado de confirmacion de reserva
+[2023-03-22 22:34:39] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:30:25, fechaInicio=2023-06-06, fechaFin=null, producto=Producto(id=3, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@c481b88)
+[2023-03-22 22:34:39] [ DEBUG] [ReservaService:56] Email enviado de confirmacion de reserva
+[2023-03-22 22:35:05] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=null, fechaInicio=2023-06-06, fechaFin=2023-05-30, producto=Producto(id=3, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@40f38eb)
+[2023-03-22 22:35:05] [ DEBUG] [ReservaService:56] Email enviado de confirmacion de reserva
+[2023-03-22 22:52:50] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:30:25, fechaInicio=2023-06-06, fechaFin=2023-05-30, producto=Producto(id=3, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@64b9cfde)
+[2023-03-22 22:52:50] [ DEBUG] [ReservaService:56] Email enviado de confirmacion de reserva
+[2023-03-22 23:00:54] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=12:00:00, fechaInicio=2023-06-06, fechaFin=2023-05-30, producto=Producto(id=3, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@7a3e782e)
+[2023-03-22 23:00:54] [ DEBUG] [ReservaService:56] Email enviado de confirmacion de reserva
+[2023-03-22 23:42:43] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:10:30, fechaInicio=2004-07-07, fechaFin=2004-06-06, producto=Producto(id=3, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@71ab9fdb)
+[2023-03-22 23:42:43] [ DEBUG] [ReservaService:56] Email enviado de confirmacion de reserva
+[2023-03-23 00:35:02] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:10:30, fechaInicio=2023-03-23, fechaFin=2023-04-24, producto=Producto(id=3, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@62d1ff42)
+[2023-03-23 00:35:02] [ DEBUG] [ReservaService:56] Email enviado de confirmacion de reserva
+[2023-03-23 00:37:01] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:10:30, fechaInicio=2023-06-07, fechaFin=2023-06-29, producto=Producto(id=3, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@3437ffbf)
+[2023-03-23 00:37:01] [ DEBUG] [ReservaService:56] Email enviado de confirmacion de reserva
+[2023-03-23 08:40:46] [ INFO ] [ProductoService:41] Se inició el listado de productos
+[2023-03-23 08:41:16] [ INFO ] [CiudadService:33] Se inició el listado de ciudades
+[2023-03-23 08:41:40] [ INFO ] [NormaService:21] Se inicio el guardado de la norma: null
+[2023-03-23 08:41:53] [ INFO ] [NormaService:33] Se inició el listado de las normas
+[2023-03-23 08:42:12] [ INFO ] [SaludService:32] Se inició el listado de las politicas de salud
+[2023-03-23 08:44:43] [ INFO ] [ProductoService:41] Se inició el listado de productos
+[2023-03-23 08:46:56] [ INFO ] [ProductoService:41] Se inició el listado de productos
+[2023-03-23 08:49:26] [ INFO ] [ProductoService:41] Se inició el listado de productos
+[2023-03-23 08:51:28] [ INFO ] [ProductoService:33] Se inició la búsqueda de el producto con id 3
+[2023-03-23 08:51:52] [ INFO ] [ProductoService:41] Se inició el listado de productos
+[2023-03-23 08:51:52] [ INFO ] [ProductoService:33] Se inició la búsqueda de el producto con id 3
+[2023-03-23 08:54:19] [ INFO ] [ImagenService:32] Se inició el listado de imágenes
+[2023-03-23 08:54:51] [ INFO ] [ProductoService:41] Se inició el listado de productos
+[2023-03-23 08:54:59] [ INFO ] [ProductoService:33] Se inició la búsqueda de el producto con id 3
+[2023-03-23 08:56:18] [ INFO ] [ProductoService:41] Se inició el listado de productos
+[2023-03-23 08:56:57] [ INFO ] [ProductoService:41] Se inició el listado de productos
+[2023-03-23 08:58:17] [ INFO ] [ProductoService:41] Se inició el listado de productos
+[2023-03-23 09:11:54] [ INFO ] [ImagenService:32] Se inició el listado de imágenes
+[2023-03-23 09:12:06] [ INFO ] [ProductoService:41] Se inició el listado de productos
+[2023-03-23 09:38:00] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:10:30, fechaInicio=2023-03-23, fechaFin=2023-04-23, producto=Producto(id=4, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@6dd02b15)
+[2023-03-23 09:38:03] [ DEBUG] [ReservaService:56] Email enviado de confirmacion de reserva
+[2023-03-23 09:38:07] [ INFO ] [ReservaService:64] Se inicio el listado de reservas
+[2023-03-23 09:39:04] [ INFO ] [ReservaService:64] Se inicio el listado de reservas
+[2023-03-23 09:39:47] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:10:30, fechaInicio=2023-05-17, fechaFin=2023-05-30, producto=Producto(id=4, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@3420496f)
+[2023-03-23 09:39:50] [ DEBUG] [ReservaService:56] Email enviado de confirmacion de reserva
+[2023-03-23 09:39:54] [ INFO ] [ReservaService:64] Se inicio el listado de reservas
+[2023-03-23 09:42:40] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-23 09:42:54] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 2
+[2023-03-23 09:42:57] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-23 09:44:35] [ INFO ] [ReservaService:64] Se inicio el listado de reservas
+[2023-03-23 09:54:20] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-23 10:07:41] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-23 10:08:40] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-23 10:08:51] [ INFO ] [ProductoService:33] Se inició la búsqueda de el producto con id 4
+[2023-03-23 10:09:11] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-23 10:09:46] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-23 10:10:08] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-23 10:10:24] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 5
+[2023-03-23 10:10:41] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-23 10:11:24] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-23 10:13:37] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-23 10:14:23] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 5
+[2023-03-23 10:14:35] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:10:30, fechaInicio=2023-03-23, fechaFin=2023-04-04, producto=Producto(id=5, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@47c39998)
+[2023-03-23 10:14:37] [ DEBUG] [ReservaService:56] Email enviado de confirmacion de reserva
+[2023-03-23 10:14:39] [ INFO ] [ReservaService:64] Se inicio el listado de reservas
+[2023-03-23 10:15:01] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 5
+[2023-03-23 10:20:27] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-23 10:24:07] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 5
+[2023-03-23 10:24:33] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-23 10:29:14] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 11
+[2023-03-23 10:29:36] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:10:30, fechaInicio=2023-03-23, fechaFin=null, producto=Producto(id=11, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@682c1217)
+[2023-03-23 10:29:39] [ DEBUG] [ReservaService:56] Email enviado de confirmacion de reserva
+[2023-03-23 10:33:47] [ INFO ] [ReservaService:64] Se inicio el listado de reservas
+[2023-03-23 10:34:30] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 11
+[2023-03-23 10:35:09] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 11
+[2023-03-23 10:35:26] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-23 10:35:34] [ INFO ] [ProductoService:41] Se inició el listado de productos
+[2023-03-23 10:36:14] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 11
+[2023-03-23 10:36:21] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-23 11:11:59] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-23 11:12:21] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:10:30, fechaInicio=2023-04-26, fechaFin=2023-04-30, producto=Producto(id=4, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@50323665)
+[2023-03-23 11:12:24] [ DEBUG] [ReservaService:56] Email enviado de confirmacion de reserva
+[2023-03-23 11:12:31] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-23 11:13:13] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-23 11:21:24] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-23 12:26:22] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-23 12:31:57] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-23 13:51:54] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 6
+[2023-03-23 13:52:09] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:10:30, fechaInicio=2023-03-23, fechaFin=2023-04-18, producto=Producto(id=6, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@724c2124)
+[2023-03-23 13:52:12] [ DEBUG] [ReservaService:56] Email enviado de confirmacion de reserva
+[2023-03-23 13:52:19] [ INFO ] [ReservaService:64] Se inicio el listado de reservas
+[2023-03-23 13:52:49] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 6
+[2023-03-23 14:05:48] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-23 14:11:38] [ INFO ] [CaracteristicaService:33] Se inició el listado de caracteristicas
+[2023-03-23 14:12:05] [ INFO ] [CaracteristicaService:37] Se inició la búsqueda de la caracteristica con id 1
+[2023-03-23 14:12:07] [ WARN ] [CaracteristicaService:25] Se eliminó la caracteristica con id 1
+[2023-03-23 14:13:56] [ INFO ] [CaracteristicaService:37] Se inició la búsqueda de la caracteristica con id 1
+[2023-03-23 14:14:54] [ INFO ] [CaracteristicaService:37] Se inició la búsqueda de la caracteristica con id 1
+[2023-03-23 14:14:56] [ WARN ] [CaracteristicaService:25] Se eliminó la caracteristica con id 1
+[2023-03-23 14:21:09] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-23 14:23:45] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 14
+[2023-03-23 14:24:14] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:10:30, fechaInicio=2023-04-03, fechaFin=2023-04-13, producto=Producto(id=14, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@6e577e86)
+[2023-03-23 14:24:17] [ DEBUG] [ReservaService:56] Email enviado de confirmacion de reserva
+[2023-03-23 14:24:31] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 14
+[2023-03-23 14:24:46] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:10:30, fechaInicio=null, fechaFin=null, producto=Producto(id=14, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@5b7133e3)
+[2023-03-23 14:24:49] [ DEBUG] [ReservaService:56] Email enviado de confirmacion de reserva
+[2023-03-23 14:30:16] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-23 14:30:45] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:10:30, fechaInicio=2023-06-01, fechaFin=2023-06-15, producto=Producto(id=4, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@23f27ae2)
+[2023-03-23 14:30:49] [ DEBUG] [ReservaService:56] Email enviado de confirmacion de reserva
+[2023-03-23 14:35:02] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 15
+[2023-03-23 15:39:12] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-23 15:39:34] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:10:30, fechaInicio=2023-06-21, fechaFin=2023-06-27, producto=Producto(id=4, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@61e1895)
+[2023-03-23 15:39:37] [ DEBUG] [ReservaService:56] Email enviado de confirmacion de reserva
+[2023-03-23 16:17:46] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 11
+[2023-03-23 16:18:59] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 11
+[2023-03-23 16:19:37] [ INFO ] [ReservaService:64] Se inicio el listado de reservas
+[2023-03-23 16:23:26] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 15
+[2023-03-23 16:23:37] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:10:30, fechaInicio=2023-03-23, fechaFin=2023-03-25, producto=Producto(id=15, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@67e39d89)
+[2023-03-23 16:23:40] [ DEBUG] [ReservaService:56] Email enviado de confirmacion de reserva
+[2023-03-23 16:24:28] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 15
+[2023-03-23 16:56:38] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-23 16:57:20] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:10:30, fechaInicio=2023-03-23, fechaFin=2023-03-24, producto=Producto(id=4, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@16cac96b)
+[2023-03-23 16:57:23] [ DEBUG] [ReservaService:56] Email enviado de confirmacion de reserva
+[2023-03-23 16:57:26] [ INFO ] [ReservaService:64] Se inicio el listado de reservas
+[2023-03-23 17:04:16] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-23 18:43:12] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 5
+[2023-03-23 18:43:39] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:10:30, fechaInicio=2023-04-29, fechaFin=2023-04-30, producto=Producto(id=5, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@2abd20ba)
+[2023-03-23 18:43:41] [ DEBUG] [ReservaService:56] Email enviado de confirmacion de reserva
+[2023-03-23 19:11:36] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-23 19:12:41] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:10:30, fechaInicio=2023-03-25, fechaFin=2023-04-04, producto=Producto(id=4, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@2125f72f)
+[2023-03-23 19:12:43] [ DEBUG] [ReservaService:56] Email enviado de confirmacion de reserva
+[2023-03-23 19:13:38] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-23 19:14:03] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:10:30, fechaInicio=2023-04-11, fechaFin=2023-04-24, producto=Producto(id=4, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@3978f66a)
+[2023-03-23 19:14:06] [ DEBUG] [ReservaService:56] Email enviado de confirmacion de reserva
+[2023-03-27 16:05:05] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-27 16:05:13] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:10:30, fechaInicio=null, fechaFin=null, producto=Producto(id=4, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@589dd2b5)
+[2023-03-27 16:05:16] [ DEBUG] [ReservaService:56] Email enviado de confirmacion de reserva
+[2023-03-27 16:09:35] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-27 16:10:55] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 14
+[2023-03-27 16:11:12] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:10:30, fechaInicio=2023-03-27, fechaFin=2023-03-29, producto=Producto(id=14, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@b4d7225)
+[2023-03-27 16:11:15] [ DEBUG] [ReservaService:56] Email enviado de confirmacion de reserva
+[2023-03-27 16:11:20] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 14
+[2023-03-27 17:33:42] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-27 19:40:33] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-27 19:41:43] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-27 19:42:17] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:10:30, fechaInicio=2023-04-04, fechaFin=2023-04-20, producto=Producto(id=4, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@27035c9b)
+[2023-03-27 19:42:19] [ DEBUG] [ReservaService:56] Email enviado de confirmacion de reserva
+[2023-03-27 19:43:01] [ INFO ] [ReservaService:88] Se inicio la busqueda de reservas con producto id: 4
+[2023-03-27 19:43:21] [ DEBUG] [ReservaService:43] Se inicio el guardado de la reserva Reserva(id=null, horaReserva=10:10:30, fechaInicio=2023-04-21, fechaFin=2023-04-30, producto=Producto(id=4, nombre=null, descripcion=null, calificacion=null, valoracion=null, latitud=null, longitud=null, categoria=null, ciudad=null, imagenes=[], caracteristicas=[], politica=null, reservas=[]), user=com.proyectointegrador.digitalbooking.model.User@11ce99dc)
+[2023-03-27 19:43:24] [ DEBUG] [ReservaService:56] Email enviado de confirmacion de reserva

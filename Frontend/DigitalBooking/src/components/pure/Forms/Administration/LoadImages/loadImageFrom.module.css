@@ -1,0 +1,77 @@
+.imagesContainer{
+    padding-top: 2%;
+    margin-left: 2%;
+}
+
+.inputImages{
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 5px;
+    height: 45px;
+    border: none;
+    padding: 5px;
+    width: 85vw;
+}
+
+.errorUrlImages{
+    position: relative;
+    color: #FF0000;
+    font-size: 12px;
+}
+
+.formImages{
+    background-color: #bebebe00;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.formImages input:invalid{
+    background-color: #fffefe;
+    border: solid 1.5px #e41212;
+}
+
+.formImages input:valid{
+    border: solid 1.5px #26ac04;
+}
+
+.formImages input:hover{
+    background-color: rgb(211, 211, 211);
+}
+
+.addButtonImagenes{
+    background-color: #1DBEB4;
+    border-radius: 5px;
+    height: 2em;
+    width: 2em;
+    padding: 5px;
+    position: sticky;
+    margin-left: 94%;
+    margin-top: -3%;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 880px){ 
+    .addButtonImagenes{
+        margin-top: -5%;
+    }
+}
+
+@media screen and (max-width: 660px){ 
+    .addButtonImagenes{
+        margin-top: -6%;
+    }
+}
+
+@media screen and (max-width: 500px){ 
+    .addButtonImagenes{
+        margin-left: 81vw;
+        margin-top: -8%;
+    }
+
+    .inputImages{
+        width: 25rem;
+    }
+}

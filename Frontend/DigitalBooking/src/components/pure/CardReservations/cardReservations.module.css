@@ -1,0 +1,237 @@
+.cardReservations{
+    display: flex;
+    justify-content: space-between;
+    transition: 0.3s;
+    border-radius: 10px;
+    width: 47vw;
+    height: max-content;
+    margin: 1%;
+    box-shadow: 4px 4px 5px 4px rgb(0 0 0 / 25%);
+    margin-top: 2%;
+    color: #383B58;
+    align-items: center;
+    flex-direction: row;
+   
+}
+
+.cardReservations:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.dataReservations{
+    height: auto;
+    padding: 0.5%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+
+.nameAndCategory{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;   
+    margin-left: 0.5vw;
+}
+
+.reviewAndCalification{
+    display: flex;
+    margin-left: 16vw;
+    position: absolute;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.calification{
+    color: white;
+    background-color: #383B58;
+    width: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.descriptionContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 2%;
+}
+
+.imageContainer{
+    display: flex;
+    width: 90rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 20rem;
+}
+
+.images{
+    width: 100%;
+    height: 92%;
+    margin-top: 4%;
+    margin-left: 3%;
+    border-radius: 10px;
+    aspect-ratio: 4/3;
+}
+
+span {
+    font-size: 0.9rem;
+}
+
+.spanCheck{
+    font-weight: 900;
+    color: #383B58;
+}
+
+.a {
+    color: #1DBEB4;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.a:hover{
+    text-decoration: none;
+}
+
+.btn {
+    color: white;
+    font-weight: bold;
+    background-color: #1DBEB4;
+    height: 3rem;
+    width: 15vw;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    align-items: center;
+    margin-top: 2vh;
+    margin-left: 4.5vw;
+}
+
+.btn:hover {
+    background-color: #78dfd4;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 900px){
+    .cardReservations{
+        width: 97vw;
+    }
+
+    .images{
+        width: 50vw;
+    }
+
+    .reviewAndCalification{
+        margin-left: 33%;
+    }
+
+    .nameAndCategory{
+        margin-top: 0%;
+    }
+
+    .btn{
+        margin-top: 3vh;
+        margin-left: 25.5vw;
+        width: 25vw
+    }
+}
+
+@media screen and (max-width: 700px){
+    .reviewAndCalification{
+        margin-left: 30%;
+        margin-top: 1%;
+    }
+}
+
+@media screen and (max-width: 535px){
+    .reviewAndCalification{
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .cardReservations{
+        flex-direction: column;
+        height: 80vh;
+    }
+
+    .imageContainer{    
+        width: 97vw;
+    }
+    
+    .images{
+        width: 97vw;
+        height: 40vh;
+    }
+
+    .nameAndCategory{
+        margin-bottom: 10%;
+        margin-left: 3%;
+    }
+
+    .reviewAndCalification{
+        margin-left: 78%;
+    }
+
+    .descriptionContainer{
+        bottom: 8%;
+        margin-left: 2%;
+        text-align: center;
+    }
+
+    .btn{
+        margin-bottom: 2vh;
+        margin-left: 25.5vw;
+        width: 45vw;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .reviewAndCalification{
+        margin-left: 70%;
+    }
+
+    .cardReservations{
+        height: 85vh;
+    }
+}
+
+@media screen and (max-width: 342px){
+    .cardReservations{
+        height: 85vh;
+    }
+
+    .nameAndCategory{
+        margin-bottom: 8%;
+        margin-top: 9%;
+        position: relative;
+        margin-left: 3%;
+    }
+
+    .btn{
+        bottom: 1.5rem;
+        width: 45vw;
+        position: relative;
+    }
+
+}
+
+@media screen and (max-width: 300px){
+    .reviewAndCalification{
+        margin-left: 65%;
+    }
+}
+
+@media screen and (max-width: 249px){
+    .cardReservations{
+        height: 90vh;
+    }
+}

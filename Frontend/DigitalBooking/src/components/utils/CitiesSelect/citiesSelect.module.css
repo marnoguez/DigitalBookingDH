@@ -1,0 +1,45 @@
+.citiesAdmin, .citiesBooking, .citiesSearch{
+    border-radius: 5px;
+    color: #8f8f8f;
+    font-weight: bold;    
+    border: none;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.25);    
+
+}
+
+.citiesSearch{
+    height: 3rem;
+    width: 25vw;
+    margin-right: 1rem;
+}
+
+.citiesAdmin{
+    height: 3rem;
+    width: 41vw;
+    margin-right: 1rem;
+}
+
+.citiesBooking{
+    height: 3rem;
+    width: 28vw;
+}
+
+@media screen and (max-width: 532px){
+    .citiesSearch{
+        height: 3rem;
+        width: 90vw;
+        position: absolute;
+        top: 15rem;
+        left: 1rem;
+    }
+}
+
+@media screen and (max-width: 365px){
+    .citiesSearch{
+        height: 3rem;
+        width: 90vw;
+        position: absolute;
+        top: 18.5rem;
+        left: 1rem;
+    }
+}

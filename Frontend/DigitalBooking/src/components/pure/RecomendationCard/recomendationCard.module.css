@@ -1,0 +1,192 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    transition: 0.3s;
+    border-radius: 10px;
+    width: 47vw;
+    height: auto;
+    margin-bottom: 2vh;
+    background-color: white;
+    color: #383B58;
+    font-weight: bold;
+
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*Imagen izquierda*/
+/*Contenedor*/
+
+.image{
+    width: 25vw;
+    height: 303px;
+}
+
+.img {     
+  border-radius: 10px;
+  aspect-ratio: 4/3;
+}
+
+.likeButton{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 18rem;
+}
+
+.rigth {    
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: medium;
+    padding-bottom: 1vh;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vh;
+}
+
+.topLefth {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.topRigth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 1vw;
+}
+
+
+
+.title {
+    font-size: 1.3em;
+}
+ 
+.calification{
+    color: white;
+    background-color: #383B58;
+    width: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+ span {
+    font-size: 0.9rem;
+}
+
+/*
+Boton
+*/
+
+.btn {
+    color: white;
+    font-weight: bold;
+    background-color: #1DBEB4;
+    height: 3rem;
+    width: 15vw;
+    border-radius: 10px;
+    border: none;
+    margin-top: 1vh;
+    font-size: 1rem;
+    align-items: center;
+    margin-top: 2vh;
+    margin-left: 1.5vw;
+}
+
+.btn:hover {
+    background-color: #78dfd4;
+    transform: scale(1.1);
+}
+
+
+.a {
+    color: #1DBEB4;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.a:hover{
+    text-decoration: none;
+}
+
+p{font-size: 0.95rem;}
+
+.sectionBoton{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.sectionIcons{
+    display: flex;
+    justify-content: start;
+    margin: 10px -20px;
+    width: 100%;
+}
+
+.icons{
+    padding-left: 20px;
+}
+
+
+
+
+@media  (max-width : 1330px) {
+    .card{
+      width: 80vw;
+    }
+
+    .image{
+        width: 100%;
+        margin-right: 3vw;
+    }
+
+    .rigth{
+        width: 100%;
+    }
+
+    .btn{
+        width: 35vw;
+    }
+}
+
+@media  (max-width : 1330px) {
+    .card{
+      width: 90vw;
+    }
+
+    
+}
+
+
+@media  (max-width : 594px) {
+    .card{
+        flex-direction: column;        
+        align-items: center;
+        width: 95vw;
+        margin: 0;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    .image{
+        width: 97%;
+        margin-right: -3px;
+    }
+
+    .rigth{
+        width: 100%;
+    }
+}

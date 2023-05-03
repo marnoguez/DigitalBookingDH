@@ -1,0 +1,139 @@
+.succesCard{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 10px rgb(0 0 0 / 25%);
+    border-radius: 10px;  
+    background-color: white;
+    width: 50vw;
+    height: 50vh;
+    margin-top: 16vh;
+    margin-left: 25vw;
+}
+
+.imgSucces{
+    width: 6rem;
+}
+
+.titleSucces{
+    color:  rgb(75, 212, 194);
+}
+
+.textSucces{
+    color: #545776;
+    margin-top: 0.5vw;
+    font-weight: 500;
+    font-size: large;
+}
+
+.pSucces, .aSuccesMail{
+    color: #383B58;
+}
+
+.aSucces:hover{
+    color: #373f85;
+    cursor: pointer;
+}
+
+.btnSucces{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    width: 15rem;
+    height: 3.5rem;
+    background-color: rgb(75, 212, 194);
+    border: turquoise;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+.btnSucces:hover{
+    background-color: rgb(63, 226, 215);
+}
+
+@media screen and (max-width: 900px){
+    .succesCard{
+        height: 20rem;
+        width: 30rem;
+        margin-left: 13rem;
+        margin-top: 20%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .succesCard{
+        margin-left: 8rem;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .succesCard{
+        margin-left: 6rem;
+        margin-top: 12rem;
+    }
+
+    .titleSucces{
+        font-size: 2rem;
+    }
+
+    .textSucces{
+        font-size: 1rem;
+    }
+
+    .btnSucces{
+        height: 3rem;
+        width: 5rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .succesCard{
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (max-width: 530px){
+    .succesCard{
+        height: 20rem;
+        width: 20rem;
+        margin-left: 5rem;
+    }
+
+    .imgSucces{
+        width: 4rem;
+    }
+
+    .titleSucces{
+        font-size: 1.5rem;
+    }
+
+    .textSucces{
+        font-size: 0.8rem;
+    }
+
+    .btnSucces{
+        bottom: 10rem;
+        height: 3rem;
+        width: 4rem;
+    }
+
+    .pSucces{
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 420px){
+    .succesCard{
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 335px){
+    .succesCard{
+        margin-left: 0rem;
+    }
+}

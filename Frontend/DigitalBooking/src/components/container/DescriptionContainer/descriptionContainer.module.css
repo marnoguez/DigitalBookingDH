@@ -1,0 +1,307 @@
+
+.titleDesc{
+    display: flex;
+    background-color: #545776;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.titleDesc h6{
+    color: #F3F1ED;
+    margin-left: 1%;
+}
+
+.titleDesc a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    margin-right: 1%;
+}
+
+.divDesc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #383B58;
+    background-color: #e2e2e2;
+    height: 5rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.divDesc p{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 1%;
+}
+
+.puntaje{
+    margin-right: 1%;
+}
+
+.divDesc span{
+    background-color: #545776;
+    color: white;
+    border-radius: 35%;
+    padding: 8px 10px;
+    font-weight: 500;
+}
+
+.stars{
+    color: #1DBEB4;
+    font-size: 1rem;
+}
+
+.likeAndShare{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding: 1rem;
+}
+
+.likeAndShare i:hover{
+    cursor: pointer;
+    color: #a0a0a0;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.services{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.services p{
+    font-size: 14.5px;
+    font-weight: 400;    
+}
+
+h4{
+    color: #545776;
+}
+
+hr{
+    border: solid 0.2px;
+    color: #1DBEB4;
+}
+
+.dateDisponible{
+    display: flex;
+    justify-content: space-between;
+    background-color: gainsboro;
+    height: 33rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.divCalendar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    height: 30%;
+    width: 30%;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgb(0.5 0 0 / 25%);
+    border-radius: 3%;
+}
+
+.textCalendar{
+    text-align: center;
+}
+
+.btnCalendar{
+    font-size: 1.3rem;
+    width: 10rem;
+    height: 3.5rem;
+    background-color: rgb(75, 212, 194);
+    border: turquoise;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+.btnCalendar:hover{
+    background-color: rgb(63, 226, 215);
+}
+
+.iconList ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    height: max-content;
+    justify-items: stretch;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-direction: row;
+}
+
+.icons{
+    font-size: 1.3rem;
+    color: #1DBEB4;   
+}
+
+.mapaContainer{
+    height: 30rem;
+    width: 100%;
+    display: flex;
+}
+
+.mapa{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    cursor: grab;
+}
+
+.mapa:active{
+    cursor: grabbing;
+}
+
+.titleNormas{
+    color: #545776;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.listNormas h5{
+    color: #545776;
+    font-size: 1.5rem;
+    
+}
+
+.listNormas ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.listas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1rem;
+    justify-items: stretch;
+}
+
+/** Revisar**/
+
+.dateDisponible{
+    display: flex;
+    justify-content: space-between;
+    background-color: gainsboro;
+    height: 33rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.divCalendar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    height: 30%;
+    width: 30%;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgb(0.5 0 0 / 25%);
+    border-radius: 3%;
+}
+
+.textCalendar{
+    text-align: center;
+}
+
+.btnCalendar{
+    font-size: 1.3rem;
+    width: 10rem;
+    height: 3.5rem;
+    background-color: rgb(75, 212, 194);
+    border: turquoise;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+.btnCalendar:hover{
+    background-color: rgb(63, 226, 215);
+}
+
+@media screen and (max-width: 1200px){
+    .images img{
+        width: 40%;
+        height: 30%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .dateDisponible{
+        display: flex;
+        padding-left: 1px;
+        height: 35rem;
+        flex-direction: row;
+        align-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .divCalendar{
+        position: relative;
+        height: 20%;
+        width: 100vw;
+        box-shadow: none;
+        margin-top: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .images{
+        display: none;
+    }
+}
+@media screen and (max-width: 678px){
+    .divCalendar{
+        background-color:gainsboro;
+        color: #383B58;
+        font-weight: 500;
+    }
+
+    .divCalendar p {
+        font-size: 1.5rem;
+    }
+
+    .btnCalendar{
+        margin-top: 10px;
+        width: 20rem;
+    }
+}
+@media screen and (max-width: 550px) {
+    .divCalendar{
+        margin-top: auto;
+    }
+
+    .btnCalendar{
+        margin-top: auto;
+    }
+}

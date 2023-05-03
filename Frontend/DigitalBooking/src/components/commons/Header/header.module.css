@@ -1,0 +1,115 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 1.5em;
+}
+
+.menuMobile{
+    display: none;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    text-decoration: none;
+    color: #545776;
+    font-size: 1.7em;
+    font-style: italic;
+    font-weight: lighter;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.title:hover{
+    text-decoration: none;
+    color: #545776;
+    font-weight: 300;
+}
+
+.adminContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: -120px;
+    margin-top: -16%;
+
+}
+
+.admin{
+    color: #545776;
+    font-weight: bolder;
+    padding: 2%;
+}
+
+.admin:hover{
+    text-decoration: none;
+    color: #8085bb;
+}
+
+.btn{
+    background: #FFFFFF;
+    border: 1px solid #1DBEB4;
+    color: #1DBEB4;
+    border-radius: 5px;
+    width: 9rem;
+    height: 3rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;  
+}
+
+
+.btn:hover{
+    transform: scale(1.1);
+    background-color: #4bb8b0a4;
+    color: rgb(255, 255, 255);
+}
+
+
+/*Tablet*/
+@media  (max-width : 903px) {
+        .title{
+            display: none;
+        }
+
+        .logo{
+            width: 60px;
+            height: 50px;
+        }
+
+        .btn{
+            width: 11rem;
+        }
+}
+
+/*Celular*/
+@media  (max-width : 662px) {
+
+    .menuMobile{
+        display: flex;
+        justify-content: end;
+        color: #545776;
+        cursor: pointer;
+
+    }
+
+    .menuMobile:hover{
+        color: #636ab8;
+    }
+
+    .avatarContainer{
+        display: none;
+    }
+    .right{
+        display: none;
+    }
+}

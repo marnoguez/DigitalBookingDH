@@ -1,0 +1,55 @@
+.container{
+    background-color: #F3F1ED;  
+    padding-bottom: 10vh;  
+}
+
+.sectionContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;   
+    margin-top: 2vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-bottom: 4vh;
+}
+
+.title{
+    margin-top: 2em;
+    margin-left: 2em;
+    color: #383B58;
+}
+
+/*Revisar*/
+
+@media (max-width: 1180px  ){
+
+    
+    .sectionContainer{
+        justify-content: center;
+        margin-left: 0px;
+    }
+
+}
+
+
+@media (max-width: 1330px  ){
+
+    
+    .sectionContainer{
+        justify-content: center;
+        margin-left: 0px;
+    }
+
+}
+
+
+
+@media (max-width: 388px){
+
+    
+    .title{
+        font-size: 1.7em;
+        text-align: center;
+    }
+
+}

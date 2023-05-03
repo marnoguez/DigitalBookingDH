@@ -1,0 +1,75 @@
+[
+    {
+        "id": "1",
+        "img": "../img/hotel-room.jpg",
+        "title": "Hermitage Hotel",
+        "number": 8,
+        "review": "Muy bueno",
+        "distance": "A 940 m del centro",
+        "description": "En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires.",
+        "stars": 5,
+        "category":"Hotel"
+        
+    },
+
+    {
+        "id": "2",
+        "img": "../img/room-bab.jpg",
+        "title": "The Dolder Grand",
+        "number": 8,
+        "review": "Muy bueno",
+        "distance": "A 940 m del centro",
+        "description": "En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires.",
+        "stars": 5,
+        "category":"Bed and Breakfast"
+    },
+
+    {
+        "id": "3",
+        "img": "../img/dormitorio-hotel.jpg",
+        "title": "Aloha Hostel",
+        "number": 8,
+        "review": "Muy bueno",
+        "distance": "A 940 m del centro",
+        "description": "En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires.",
+        "stars": 5,
+        "category":"Hostel"
+    },
+
+    {
+        "id": "4",
+        "img": "../img/hotel.jpg",
+        "title": "Concordia Hotel",
+        "number": "8",
+        "review": "Muy bueno",
+        "distance": "A 940 m del centro",
+        "description": "En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires.",
+        "stars": 5,
+        "category":"Hotel"
+    },
+
+    {
+        "id": "5",
+        "img": "../img/b&b.jpg",
+        "title": "Hilton Rio de Janeiro Copacabana",
+        "number": 8,
+        "review": "Muy bueno",
+        "distance": "A 940 m del centro",
+        "description": "En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires.",
+        "stars": 5,
+        "category":"Bed and Breakfast"
+        
+    },
+
+    {
+        "id": "6",
+        "img": "../img/depart-room.jpg",
+        "title": "La tour",
+        "number": 8,
+        "review": "Muy bueno",
+        "distance": "A 940 m del centro",
+        "description": "En el corazón de San Telmo, disfruta de un albergue inspirado en las pasiones de Buenos Aires.",
+        "stars": 5,
+        "category":"Departamento"
+    }
+]

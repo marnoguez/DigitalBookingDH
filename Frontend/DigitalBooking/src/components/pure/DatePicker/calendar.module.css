@@ -1,0 +1,85 @@
+.calendarDescription {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    height: 23rem;
+    width: 40rem;
+    box-shadow: 0px 4px 4px rgb(0.5 0 0 / 25%);
+    border-radius: 2%;
+
+}
+
+
+.calendarBooking {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 23rem;
+    width: 60vw;
+    margin-left: 2vw;
+    border-radius: 2%;
+}
+
+.oneCalendar {
+    display: none;
+}
+
+.oneCalendarBooking {
+    display: none;
+}
+
+@media screen and (max-width: 960px) {
+    .calendar {
+        height: 23rem;
+        width: 40rem;
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .calendarBooking {
+        display: none;
+    }
+
+    .calendarDescription {
+        display: none;
+    }
+
+    .oneCalendar {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: white;
+        height: 21rem;
+        width: 20rem;
+        box-shadow: 0px 4px 4px rgb(0.5 0 0 / 25%);
+        border-radius: 2%;
+    }
+}
+
+/*Booking respisve*/
+@media (max-width : 1059px) {
+
+    .calendarBooking {
+        width: 95vw;
+    }
+
+}
+
+@media (max-width : 678px) {
+
+    
+    .oneCalendarBooking {
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        height: 23rem;
+        width: 90vw;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        border-radius: 2%;
+    }
+
+    .MuiDateRangeCalendar-monthContainer {
+        font-size: 40px;
+    }
+
+}

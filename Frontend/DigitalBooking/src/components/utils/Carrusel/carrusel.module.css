@@ -1,0 +1,15 @@
+.carrusel{
+    display: none;
+}
+
+@media screen and (max-width: 850px) {
+    .carrusel{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .carrusel{
+        width: 100%;
+    }
+}

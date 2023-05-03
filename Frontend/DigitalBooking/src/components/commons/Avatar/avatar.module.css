@@ -1,0 +1,50 @@
+.divProfile{
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+    height: 40px;
+    font-size: 0.9rem;
+}
+
+.profileHeader{
+    padding: 10px;
+    background-color: #545776;
+    color: white;
+    border-radius: 40px;    
+}
+
+.nameHeader{
+    color: #1DBEB4;  
+}
+
+.pHeader{
+    color: #545776;
+}
+
+.logOutHeader{
+    color: #545776;
+}
+
+.logOutHeader:hover{
+    color: #8084af;
+    cursor: pointer;
+}
+
+.nameMenu{
+    color: #545776;
+}
+
+.profileMenu{
+    padding: 10px;
+    background-color: white;
+    color: #545776;
+    border-radius: 40px;    
+}
+
+.pMenu{
+    color: white;
+}
+
+.logOutMenu{
+    display: none;
+}

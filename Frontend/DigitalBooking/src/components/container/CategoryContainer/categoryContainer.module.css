@@ -1,0 +1,50 @@
+
+.container{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+
+.sectionMain{
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;    
+    margin-right: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.title{
+   font-size: 2rem;
+}
+
+
+
+
+
+@media (max-width : 1406px){
+ 
+    .sectionMain{
+        flex-wrap: wrap;
+    }
+
+}
+
+
+@media (max-width :  748px){
+ 
+    .title{
+       text-align: center;
+    }   
+    .sectionMain{
+        margin-right: 0px;
+        justify-content: center;
+    }
+
+    .container{
+        margin: 0px;
+    }
+   
+  }
+
+

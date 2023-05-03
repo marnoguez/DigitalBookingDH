@@ -1,0 +1,54 @@
+.titleAdmin{
+    display: flex;
+    background-color: #545776;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.titleAdmin h1{
+    margin-left: 1%;
+}
+
+.titleAdmin a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    margin-right: 1%;
+    padding-top: 1%;
+}
+
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.btnCreateContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.createProductBtn{
+    background-color: #1DBEB4;
+    border-radius: 10px;
+    height: 3rem;
+    width: 20vw;
+    border: none;
+    margin-left: 4rem;
+    margin-top: 1%;
+}
+
+.createProductBtn:hover{
+    transform: scale(1.1);
+}
+
+.createProductBtn a{
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}

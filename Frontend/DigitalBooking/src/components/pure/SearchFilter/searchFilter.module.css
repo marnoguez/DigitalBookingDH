@@ -1,0 +1,100 @@
+.container{
+ height: auto;
+ background-color: #545776;
+ margin-top: 1rem;
+}
+
+.mainSection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.title{
+    color: white;
+    text-align: center;
+    padding-top: 1rem;    
+}
+
+.btn{
+    height: 2.5rem;
+    width: 15vw;
+    margin-left: 1rem;
+    border: none; 
+    border-radius: 5px;     
+    background-color: #1DBEB4;      
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+.btn:hover{
+    transform: scale(1.0);
+    background-color: #8efaf3;
+    color: black;
+}
+
+
+
+
+/*Tablet*/
+
+@media  (max-width : 752px) {
+    
+    .title{
+        font-size: 2rem;
+    }
+}
+
+@media  (max-width : 664px) {
+    
+    .title{
+        font-size: 1.8rem;
+    }
+}
+
+@media  (max-width : 602px) {
+    
+    .title{
+        font-size: 1.6rem;
+    }
+}
+
+@media  (max-width : 532px) {
+
+    .container{
+        height: auto;
+    }
+    
+    .mainSection{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .select{
+        width: 95vw;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 1em;
+    }
+
+    .btn {
+        width: 95vw;
+        position: relative;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 4em;
+        top: 4.5rem;
+    }
+
+    .title{
+        font-size: 2rem;
+    }
+}
+
+
+

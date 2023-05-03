@@ -1,0 +1,1 @@
+ssh -i grupo5C3.pem ubuntu@ec2-3-20-188-10.us-east-2.compute.amazonaws.com

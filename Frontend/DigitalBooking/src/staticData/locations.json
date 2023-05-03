@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Hermitage Hotel",
+        "location": [
+            -38.00776240463958,
+            -57.540148221307675
+        ]
+    },
+    {
+        "name": "Concorde Hotel",
+        "location": [
+            -34.96626316209379,
+            -54.94925934540208
+        ]
+    },
+    {
+        "name": "Masaya Medellin",
+        "location": [
+            6.209437491558624,
+            -75.57209815631639
+        ]
+    },
+    {
+        "name": "Hilton Rio de Janeiro Copacabana",
+        "location": [
+            -22.958489572658674,
+            -43.175077559350896
+        ]
+    },
+    {
+        "name": "Opera Louvre Holiday Apartment",
+        "location": [
+            48.87661874108655,
+            2.3398466866454006
+        ]
+    },
+    {
+        "name": "The Dolder Grand",
+        "location": [
+            47.38112388115462,
+            8.581182768311171
+        ]
+    }
+]

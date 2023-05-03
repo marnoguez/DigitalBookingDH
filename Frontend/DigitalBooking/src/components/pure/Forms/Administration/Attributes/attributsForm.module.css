@@ -1,0 +1,117 @@
+.formContainerAtributos{
+    display: flex;
+    height: 15vh;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+.formAtributos{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #bebebe00;
+    width: 95vw;
+    border-radius: 0%;
+}
+
+.formGroupAtributos{
+    padding: 1%;
+    margin-left: 0%;
+}
+
+.selectAttributesContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.selectAttributes{
+    height: 2.7rem;
+    width: 41vw;
+    border-radius: 5px;
+    color: #8f8f8f;
+    font-weight: bold;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+.addButton, .addButton2{
+    background-color: #1DBEB4;
+    border-radius: 5px;
+    height: 2em;
+    width: 2em;
+    padding: 5px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+}
+
+.addButton{
+    margin-left: 45vw;
+    margin-top: -3%;
+}
+
+.addButton2{
+    position: relative;
+    margin-left: 40.5vw;
+    bottom: 35%;
+}
+
+.addAttributesIcons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imgAttributes{
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.inputAtributos{
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 5px;
+    height: 48px;
+    border: none;
+    padding: 5px;
+    width: 40vw;
+}
+
+.errorNombreAttr, .errorUrlAttr{
+    position: relative;
+    color: #FF0000;
+    font-size: 12px;
+}
+
+.formAtributos input:invalid{
+    background-color: #fffefe;
+    border: solid 1.5px #e41212;
+}
+.formAtributos input:valid{
+    border: solid 1.5px #26ac04;
+}
+
+.formAtributos input:hover{
+    background-color: rgb(211, 211, 211);
+}
+
+@media screen and (max-width: 890px){
+    .addButton{
+        margin-top: -2.2pc;
+        margin-left: 50%;
+    }
+
+    .selectAttributesContainer{
+        margin-left: -6%;
+    }
+}

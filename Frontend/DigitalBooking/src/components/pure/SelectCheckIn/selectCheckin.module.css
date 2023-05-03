@@ -1,0 +1,43 @@
+.container{   
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    margin-top: 4vh;
+    width: 60vw;
+    height: 10rem;
+    color: #545776;
+    font-weight: bolder;
+    margin-left: 2vw; 
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+.description{
+    margin-left: 1vw;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    
+
+}
+
+.subTitle{
+    font-size: 0.8rem;
+    margin-left: 1vw;
+}
+
+.select{
+    width: 40vw;
+    height: 5vh;
+    margin-left: 1vw;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+@media (max-width : 1059px){
+ 
+    .container{
+        width: 95vw;
+    }
+
+}

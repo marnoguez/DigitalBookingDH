@@ -1,0 +1,14 @@
+.datePicker{
+    width: 50vw;
+    z-index: 4;
+    
+}
+
+@media  (max-width : 532px) {
+    
+    .datePicker{
+        width: 90vw;
+        position: relative;
+        top: 3rem;
+    }
+}

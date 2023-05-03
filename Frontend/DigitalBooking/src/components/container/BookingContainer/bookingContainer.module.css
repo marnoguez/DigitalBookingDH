@@ -1,0 +1,48 @@
+.container{    
+    padding-bottom: 8vh;
+}
+
+.sectionContainer{
+    background-color: #DFE4EA ;
+    padding-bottom: 10vh;
+}
+
+/*Parte de Hotel y navegacion*/
+.topContainer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #545776;
+    color: white;
+    margin-top: 5vh;
+}
+
+.category{
+    margin-top:15px;
+    margin-left: 30px;
+    font-weight: 500;
+}
+
+.nameHotel{
+    margin-left: 2vw;
+}
+
+/*MEDIO*/
+
+.middleContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title{
+    margin-left: 2vw;
+    padding-top: 6vh; 
+    color: #545776; 
+}
+
+
+
+@media (max-width : 1027px){
+ 
+  
+
+}

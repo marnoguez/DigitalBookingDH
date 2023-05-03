@@ -1,0 +1,174 @@
+.container{
+    padding-bottom: 20px;
+    margin-top: 0;
+}
+
+.formRegistre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;   
+    flex-wrap: wrap;
+  
+}
+
+.titleRegistre{
+    display: flex;
+    justify-content: center;
+    color: rgb(65, 206, 196);
+    top: 4.5rem;        
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.labelRegistre1, .labelRegistre2, .labelRegistre3, .labelRegistre4, .labelRegistre5{
+    position: relative;
+    color: #383B58;   
+    top: auto;
+    font-size: 1rem;
+    right: 0rem;
+}
+
+
+
+.inputRegistre1, .inputRegistre2, .inputRegistre3, .inputRegistre4, .inputRegistre5{
+    position: relative;
+    width: 28rem;
+    padding: 1rem;
+    font-size: medium;
+    background-color: #fffefe;
+    border: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px 2px rgba(168, 168, 168, 0.623);
+    margin-bottom: 10px;
+    color: black;
+}
+
+
+
+.containerRegistre3{ 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;  
+    height: auto;     
+    justify-content: center;
+   
+}
+
+
+
+.formRegistre input:invalid{
+    background-color: #fffefe;
+    border: solid 1.5px #e41212;
+}
+
+.formRegistre input:valid{
+    border: solid 1.5px #26ac04;
+}
+
+.formRegistre input:hover{
+    background-color: rgb(211, 211, 211);
+}
+
+.btnRegistre{
+    position: relative;
+    font-size: 1em;
+    width: 6rem;
+    height: 3.5rem;
+    background-color: rgb(75, 212, 194);
+    border: turquoise;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    left: auto;    
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btnRegistre:hover{
+    background-color: rgb(63, 226, 215);
+}
+
+.pRegistre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-top: 70px;
+}
+
+.pRegistre a {
+    text-decoration: none;
+    color: rgb(46, 46, 206);
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.pRegistre a:hover{
+    color: rgb(27, 190, 219);
+}
+
+.errorName, .errorLastName, .errorEmail, .errorPass, .errorConfirmPass{
+       
+    color: #FF0000;
+    font-size: 12px;
+    font-weight: 600;
+    
+}
+
+@media screen and (max-width: 1125px){
+  
+    .containerRegistre3{
+        margin-top: 4%;
+        margin-left: 2%;
+    }
+}
+
+@media screen and (max-width: 900px){
+   
+
+    .containerRegistre3{
+        margin-top: 20px;
+        position: relative;
+        margin-right: 3%;
+       
+    }
+   
+}
+
+
+
+@media screen and (max-width: 860px) and (min-width: 800px){
+    .containerRegistre3{
+       align-items: center;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 660px){
+    .containerRegistre3{
+        margin-right: 2%;
+    }
+
+    .inputRegistre1, .inputRegistre2, .inputRegistre3, .inputRegistre4, .inputRegistre5{
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 590px){
+    .containerRegistre3{
+        margin-right: 2%;
+        margin-top: 15%;
+    }
+}
+
+
+
+
+

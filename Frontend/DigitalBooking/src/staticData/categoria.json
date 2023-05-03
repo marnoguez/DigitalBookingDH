@@ -1,0 +1,31 @@
+
+
+[
+    {
+        "id": 1,
+        "img": "img/img-hotel.jpg",
+        "title": "Hoteles",
+        "number": "807.254 hoteles"
+    },
+
+    {
+        "id": 2,
+        "img": "img/img-hosteles.jpg",
+        "title": "Hostels",
+        "number": "105.453 hosteles"
+    },
+
+    {
+        "id": 3,
+        "img": "img/img-departamento.jpg",
+        "title": "Departamentos",
+        "number": "231.846 departamentos"
+    },
+
+    {
+        "id": 4,
+        "img": "img/img-bab.jpg",
+        "title": "Brakefast and bed",
+        "number": "957.023 B&B"
+    }
+]

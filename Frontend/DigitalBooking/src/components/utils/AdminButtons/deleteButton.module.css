@@ -1,0 +1,23 @@
+.deleteBtnAdmin, .deleteBtnDescription{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    color: white;
+    margin: 1%;
+    background-color: rgb(179, 57, 57);
+}
+
+.deleteBtnDescription{
+    margin-left: 19vw;
+    position: relative;
+    top: 16vw;
+}
+
+.deleteBtnAdmin:hover, .deleteBtnDescription:hover{
+    transform: scale(1.1);
+}
